@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif; /* Apply Google Font to the entire page */
+    padding: 20px; /* Add padding to create the white margin */
+    background-color: #f7f7f7; /* Set a background color for the margin */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .topic {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Change color as needed */
+  }
+  
+  .big-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .big-pictures img {
+    width: 48%; /* Adjust the width of the big pictures */
+    height: auto;
+    transition: transform 0.3s ease; /* Transition added for the hover effect */
+    border: 2px solid #ddd; /* Border added */
+    border-radius: 8px; /* Rounded corners for an elegant look */
+  }
+  
+  .big-pictures img:hover {
+    transform: scale(1.1); /* Hover effect scale increased */
+  }
+  
+  .main {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: calc(33.33% - 20px); /* Adjust the width based on your design */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Transition added for the hover effect */
+    border: 2px solid #ddd; /* Border added */
+    border-radius: 8px; /* Rounded corners for an elegant look */
+  }
+  
+  .box img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Hover effect scale increased */
+  }
+  
+  .label {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  
