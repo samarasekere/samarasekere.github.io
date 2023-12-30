@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+#hero img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.feature {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+#about-us,
+#contact-us,
+#lessons,
+#testimonials {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+#lessons img,
+#testimonials img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.lesson,
+.testimonial {
+    margin-top: 2rem;
+}
+
+.author {
+    font-style: italic;
+    color: #555;
+}
+
+/* Additions for transitions and fade-in effect */
+section {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Existing styles remain unchanged */
+
+/* Additional styles for the about page */
+#about-us {
+    text-align: left;
+    padding: 2rem;
+}
+
+#about-us h2 {
+    color: #4285f4;
+    margin-top: 2rem;
+}
+
+.team-member {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
